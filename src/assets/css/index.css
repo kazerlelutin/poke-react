@@ -1,3 +1,12 @@
+
+:root {
+  --color-pokedex: #e30c30;
+  --color-keyboard: #26a4e5;
+  --color-border-poke: #f5c711;
+  --color-button: #222222;
+  --color-screen: #dadadf;
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -5,6 +14,10 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+#root {
+  height: 100vh;
 }
 
 code {
